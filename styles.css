@@ -37,7 +37,7 @@ img {
 }
 
 .btn:focus {
-    outline: 0.5rem auto #4d90fe;
+    outline: 0.5rem solid #4d90fe;
 }
 
 .visually-hidden {
@@ -70,7 +70,7 @@ img {
 .profile-image img {
     border-radius: 50%;
     border: min(2vw, 15px) solid #04700a;
-    padding: 0px;
+    padding: 0;
 }
 
 @media (max-width: 768px) { 
