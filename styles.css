@@ -69,7 +69,7 @@ img {
 
 .profile-image img {
     border-radius: 50%;
-    border: 15px solid #04700a;
+    border: min(2vw, 15px) solid #04700a;
     padding: 0px;
 }
 
