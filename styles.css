@@ -73,6 +73,18 @@ img {
     padding: 0px;
 }
 
+@media (max-width: 768px) { 
+    .profile-image img {
+        border: 10px solid #04700a; /* Reduce border size on tablets */
+    }
+}
+
+@media (max-width: 480px) { 
+    .profile-image img {
+        border: 5px solid #04700a; /* Even smaller border on mobile */
+    }
+}
+
 .profile-user-settings,
 .profile-stats,
 .profile-bio {
